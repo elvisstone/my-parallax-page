@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+}
+
+.image1{
+    min-height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2016/08/11/23/55/trees-1587301_1280.jpg");
+}
+
+.image2{
+    min-height: 100vh;
+    background-image: url("./img/forest1.png");
+}
+
+.image3{
+    min-height: 100vh;
+    background-image: url("./img/forest2.jpg");
+}
+
+.name{
+    font-family: 'Rubik Burned', system-ui;
+    color: burlywood;
+    background-color: grey;
+    padding: 1rem;
+    font-weight: 900;
+    font-size: 3rem;
+    outline-offset: 1rem;
+    outline: 5px solid greenyellow;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    background-color: antiquewhite;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 5px 5px black;
+}
+
+.login-page-header{
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 2rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+form input{
+    margin-bottom: 10px;
+    padding: 10px;
+    background: transparent;
+    color: green;
+}
+
+form input:hover{
+    border-bottom: 2px solid green;
+}
+
+form input:focus{
+    background-color: rgba(0,0,0,0.5);
+    border-bottom: 2px solid blue;
+    outline: 0;
+}
+
+.form-btn{
+    background-color: bisque;
+    color: green;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-btn:hover{
+    background-color: cadetblue;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.social-media{
+    color: white;
+}
+
+.links{
+    font-size: 1.5rem;
+    color: white;
+}
+
+#contact-me{
+    font-size: 2rem;
+    padding-left: 20px;
+    color: orangered;
+}
+
+.links i{
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    color: orangered;
+}
+
+.links i:hover{
+    opacity: 0.7;
+}
